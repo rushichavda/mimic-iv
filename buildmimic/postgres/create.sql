@@ -28,6 +28,7 @@ CREATE TABLE mimic_core.admissions
   dischtime TIMESTAMP,
   deathtime TIMESTAMP,
   admission_type VARCHAR(40) NOT NULL,
+  admit_provider_id VARCHAR(10), 
   admission_location VARCHAR(60),
   discharge_location VARCHAR(60),
   insurance VARCHAR(255),
